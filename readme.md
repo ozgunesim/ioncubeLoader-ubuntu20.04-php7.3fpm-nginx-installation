@@ -33,8 +33,8 @@ Doğrulama için öncelikle php-fpm ve nginx servisleri yeniden başlatılır ve
 ### PHP.ini Doğrulama:
 
 ```sh
-sudo service php7.3-fpm restart
-sudo service php7.3-fpm status
+$ sudo service php7.3-fpm restart
+$ sudo service php7.3-fpm status
 ```
 
 ##### Örnek Çıktı
@@ -61,8 +61,8 @@ Nov 15 12:39:02 test systemd[1]: Started The PHP 7.3 FastCGI Process Manager.
 ### NGINX Doğrulama:
 
 ```sh
-sudo service nginx restart
-sudo service nginx status
+$ sudo service nginx restart
+$ sudo service nginx status
 ```
 
 ##### Örnek Çıktı
